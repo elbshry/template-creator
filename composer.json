@@ -1,0 +1,36 @@
+{
+    "name": "elbshry/template_creator",
+    "type": "library",
+    "license": "MIT",
+    "description": "PHP library for creating template files from src/stubs",
+    "keywords": [
+        "laravel",
+        "template"
+    ],
+    "homepage": "https://github.com/elbshry/template_creator",
+    "authors": [
+        {
+            "name": "Ahmed Elbshry",
+            "homepage": "https://github.com/elbshry",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/string": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5",
+        "fakerphp/faker": "~1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "TemplateCreator\\": "src/TemplateCreator"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TemplateCreator\\Tests\\": "tests"
+        }
+    }
+}
